@@ -55,12 +55,15 @@ H1 {
   font-family: bickhamscr2, bickhamscr2, Georgia;
   font-weight: normal;
   font-size:  56px; 
+  margin-top: 0px;
+    
    }
 
 H4 { 
   font-family: bickhamscr2, bickhamscr2, Georgia;
   font-weight: normal;
   font-size:  30px; 
+  margin-bottom: 0px;
   /*text-align: right;*/
    }
    
@@ -71,3 +74,4 @@ P {
   font-weight: normal;
   font-size:  20px; 
   }
+
