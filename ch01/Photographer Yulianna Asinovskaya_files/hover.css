@@ -1,0 +1,10 @@
+#img_s
+{
+opacity: .6;
+filter:alpha(opacity=60);
+}
+#img_s:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100);
+}

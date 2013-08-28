@@ -1,0 +1,65 @@
+/* Zagruzhaem shrift dlya Opera, Firefox, Chrome, Netscape Navigator e.t.c. */
+@font-face { 
+font-family: AlexandraZeferinoOne;
+src: 	url(/fonts/files/AlexandraZeferinoOne.ttf) format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+/* Izyebyvaemsya cherez zhopu chtoby zagruzit' shrift v Internet Explorer */
+@font-face { 
+font-family: ChampagneLimoIE;
+src: 	url(/fonts/files/AlexandraZeferinoOne.eot?#iefix) format('embedded-opentype'),
+	url(/fonts/filesAlexandraZeferinoOne.woff) format('woff'),
+	url(/fonts/files/AlexandraZeferinoOne.ttf) format('truetype'),
+	url(/fonts/files/AlexandraZeferinoOne.svg) format("svg");
+		font-weight: normal;
+		font-style: normal;
+	}
+/* Zadaem cvet fona tela vseh stranic, vyravnivaem vse chto mozhno po umolchaniyu po centru */
+BODY {
+    color: #8B7D6B; 
+    background-color: #FFFFF0;
+    text-align: center;
+    } 
+
+/* Dlya nachala, dlya vseh ssylok <A> zadaem shrift po umolchaniyu, i alternativniy */
+a {
+  font-family: AlexandraZeferinoOne, Georgia, sans-serif ;
+   font-weight: normal;
+  font-size:  30px; 
+  }
+
+/* Opredelyaem cvet ramki i format ssylok <obshie ssylky po umolchaniyu> */ 
+A:link    {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+A:visited {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+A:active  {font-weight: bold; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+A:hover   {font-weight: bold; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+
+/* Objavlyaem otdel'niy klass ssylok "KARTNK" i opredelyaem format i cvet ssylok klassa "KARTNK" */
+/* Dlya dannogo klassa, na sobytie <hover> kartinka smeshyaetsya na 1 pixel vniz */
+A.KARTNK:link    {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+A.KARTNK:visited {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+A.KARTNK:active  {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION: none;}
+A.KARTNK:hover   {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION: none; position:relative; top:1px; left:0px }
+
+/* Objavlyaem otdel'niy klass ssylok "LNK2" i opredelyaem format i cvet ssylok klassa "LNK2" */
+A.lnk2:link    {font-weight: normal; COLOR: #8B7D6B; TEXT-DECORATION:}
+A.lnk2:visited {font-weight: bold; COLOR: #8B8878; TEXT-DECORATION: }
+A.lnk2:active  {font-weight: bold; COLOR: #8B8878; TEXT-DECORATION: }
+A.lnk2:hover   {font-weight: bold; COLOR: #000000; TEXT-DECORATION: none;}
+
+/* Dlya vseh headerov H1 na vseh stranicah, ustanavlivaem zagruzheniy shrift, libo Georgia esly chto-to poshlo ne tak*/
+H1 { 
+  font-family: AlexandraZeferinoOne, AlexandraZeferinoOne, Georgia;
+  font-weight: normal;
+  font-size:  56px; 
+   }
+   
+/* Dlya obychnyh paragrafof objavlyaem shrift Georgia, esly net takogo, to sans-serif */
+
+P {
+  font-family: AlexandraZeferinoOne, AlexandraZeferinoOne, Georgia, sans-serif ;
+  font-weight: normal;
+  font-size:  20px; 
+  }

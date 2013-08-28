@@ -1,0 +1,73 @@
+/* Zagruzhaem shrift dlya Opera, Firefox, Chrome, Netscape Navigator e.t.c. */
+@font-face { 
+font-family: bickhamscr2;
+src: 	url(/fonts/bickhamscr2.ttf) format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+/* Izyebyvaemsya cherez zhopu chtoby zagruzit' shrift v Internet Explorer */
+@font-face { 
+font-family: ChampagneLimoIE;
+src: 	url(/fonts/bickhamscr2.eot?#iefix) format('embedded-opentype'),
+	url(/fonts/filesbickhamscr2.woff) format('woff'),
+	url(/fonts/bickhamscr2.ttf) format('truetype'),
+	url(/fonts/bickhamscr2.svg) format("svg");
+		font-weight: normal;
+		font-style: normal;
+	}
+/* Zadaem cvet fona tela vseh stranic, vyravnivaem vse chto mozhno po umolchaniyu po centru */
+BODY {
+    color: #ffffc0; 
+    background-color: #000000;
+    text-align: center;
+    height: 1000px;
+    width: 1200px;
+    margin:auto;
+    }
+
+img {
+    width:  600px;
+    height: 400px;
+}
+
+/* Dlya nachala, dlya vseh ssylok <A> zadaem shrift po umolchaniyu, i alternativniy */
+a {
+  font-family: bickhamscr2, Georgia, sans-serif ;
+   font-weight: normal;
+  font-size:  30px; 
+  }
+
+/* Opredelyaem cvet ramki i format ssylok <obshie ssylky po umolchaniyu> */ 
+A:link    {font-weight: normal; COLOR: #ffffc0; TEXT-DECORATION: none;}
+A:visited {font-weight: normal; COLOR: #ffffc0; TEXT-DECORATION: none;}
+A:active  {font-weight: bold; COLOR: #ffffc0; TEXT-DECORATION: none;}
+A:hover   {font-weight: bold; COLOR: #ffffc0; TEXT-DECORATION: none;}
+
+/* Objavlyaem otdel'niy klass ssylok "LNK2" i opredelyaem format i cvet ssylok klassa "LNK2" */
+A.lnk2:link    {font-weight: normal; COLOR: #ffffc0; TEXT-DECORATION: none;}
+A.lnk2:visited {font-weight: bold; COLOR: #8B8878; TEXT-DECORATION: none;}
+A.lnk2:active  {font-weight: bold; COLOR: #8B8878; TEXT-DECORATION: none;}
+A.lnk2:hover   {font-weight: bold; COLOR: #000000; TEXT-DECORATION: none;}
+
+/* Dlya vseh headerov H1 na vseh stranicah, ustanavlivaem zagruzheniy shrift, libo Georgia esly chto-to poshlo ne tak*/
+H1 { 
+  font-family: bickhamscr2, bickhamscr2, Georgia;
+  font-weight: normal;
+  font-size:  56px; 
+   }
+
+H4 { 
+  font-family: bickhamscr2, bickhamscr2, Georgia;
+  font-weight: normal;
+  font-size:  30px; 
+  /*text-align: right;*/
+   }
+   
+/* Dlya obychnyh paragrafof objavlyaem shrift Georgia, esly net takogo, to sans-serif */
+
+P {
+  font-family: bickhamscr2, bickhamscr2, Georgia, sans-serif ;
+  font-weight: normal;
+  font-size:  20px; 
+  }
