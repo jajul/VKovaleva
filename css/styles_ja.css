@@ -52,18 +52,20 @@ A.lnk2:hover   {font-weight: bold; COLOR: #000000; TEXT-DECORATION: none;}
 
 /* Dlya vseh headerov H1 na vseh stranicah, ustanavlivaem zagruzheniy shrift, libo Georgia esly chto-to poshlo ne tak*/
 H1 { 
-  font-family: bickhamscr2, bickhamscr2, Georgia;
-  font-weight: normal;
-  font-size:  56px; 
-  margin-top: 0px;
+    font-family: bickhamscr2, bickhamscr2, Georgia;
+    font-weight: normal;
+    font-size:  56px; 
+    margin-top: 0px;
     
    }
 
 H4 { 
-  font-family: bickhamscr2, bickhamscr2, Georgia;
-  font-weight: normal;
-  font-size:  30px; 
-  margin-bottom: 0px;
+    font-family: bickhamscr2, bickhamscr2, Georgia;
+    font-weight: normal;
+    font-size:  30px; 
+    margin-bottom: -60px;
+    margin-left: 350px;
+    color: white;
   /*text-align: right;*/
    }
    
